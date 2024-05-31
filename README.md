@@ -23,7 +23,7 @@ DELICIA is a point of sale (POS) system designed for a custom sandwich shop. The
 
 Upon running the application, you will be presented with the home screen:
 
-////Image
+![HomeScreen](Images/HomeScreen.png)
 
 
 - **Enter `1` to start a new order**.
