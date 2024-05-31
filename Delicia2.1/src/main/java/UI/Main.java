@@ -12,9 +12,6 @@ public class Main {
     private static final String GREEN = "\u001B[32m";
     private static final String YELLOW = "\u001B[33m";
     private static final String BLUE = "\u001B[34m";
-    private static final String PURPLE = "\u001B[35m";
-    private static final String CYAN = "\u001B[36m";
-    private static final String WHITE = "\u001B[37m";
     private static Customer customer = new Customer();
     private static Order currentOrder;
     private static Scanner scanner = new Scanner(System.in);
@@ -41,7 +38,7 @@ public class Main {
 
             System.out.print(YELLOW + "Enter your choice: " + RESET);
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Consume newline
+            scanner.nextLine();
 
             if (choice == 1) {
                 System.out.print(YELLOW + "Enter order name: " + RESET);
@@ -69,7 +66,7 @@ public class Main {
 
             System.out.print(YELLOW + "Enter your choice: " + RESET);
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Consume newline
+            scanner.nextLine();
 
             if (choice == 1) {
                 addSandwich();
@@ -94,7 +91,7 @@ public class Main {
         System.out.println("3). rye");
         System.out.println("4). wrap");
         int breadChoice = scanner.nextInt();
-        scanner.nextLine(); // Consume newline
+        scanner.nextLine();
         String breadType = switch (breadChoice) {
             case 1 -> "white";
             case 2 -> "wheat";
@@ -180,7 +177,7 @@ public class Main {
         System.out.println("3). Lemonade");
         System.out.println("4). water");
         int drinkChoice = scanner.nextInt();
-        scanner.nextLine(); // Consume newline
+        scanner.nextLine();
         String flavor = switch (drinkChoice) {
             case 1 -> "coke";
             case 2 -> "orange fanta";
@@ -194,7 +191,7 @@ public class Main {
         System.out.println("2). Medium");
         System.out.println("3). Large");
         int sizeChoice = scanner.nextInt();
-        scanner.nextLine(); // Consume newline
+        scanner.nextLine();
         String size = switch (sizeChoice) {
             case 1 -> "small";
             case 2 -> "medium";
@@ -220,7 +217,7 @@ public class Main {
         System.out.println("2). Hot Cheetos");
         System.out.println("3). Lays");
         int chipChoice = scanner.nextInt();
-        scanner.nextLine(); // Consume newline
+        scanner.nextLine();
         String type = switch (chipChoice) {
             case 1 -> "Doritos";
             case 2 -> "Hot Cheetos";

@@ -51,31 +51,19 @@ public class Sandwich extends Product {
         return size;
     }
 
-    public void setSize(String size) {
-        this.size = size;
-    }
 
     public String getBreadType() {
         return breadType;
     }
 
-    public void setBreadType(String breadType) {
-        this.breadType = breadType;
-    }
 
     public boolean isToasted() {
         return toasted;
     }
 
-    public void setToasted(boolean toasted) {
-        this.toasted = toasted;
-    }
 
     public List<Topping> getToppings() {
         return toppings;
     }
 
-    public void setToppings(List<Topping> toppings) {
-        this.toppings = toppings;
-    }
 }

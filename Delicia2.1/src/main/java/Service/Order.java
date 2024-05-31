@@ -4,6 +4,7 @@ import com.pluralsight.Product;
 import com.pluralsight.Sandwich;
 import com.pluralsight.Topping;
 
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
@@ -74,45 +75,20 @@ public class Order {
         // Print receipt to console
         System.out.print(receipt.toString());
 
+        // Ensure the directory exists
+        String directoryPath = "C:/PluralSight/Delicia2.1/Delicia2.1/receipts/";
+        File directory = new File(directoryPath);
+        if (!directory.exists()) {
+            directory.mkdirs();
+        }
+
         // Write receipt to file
-        String filePath = String.format("C:/PluralSight/delicia/receipts/receipt_%s_%s.txt", orderId, dateTimeFormat.format(orderDate));
+        String filePath = String.format(directoryPath + "receipt_%s_%s.txt", orderId, dateTimeFormat.format(orderDate));
         try (FileWriter writer = new FileWriter(filePath)) {
             writer.write(receipt.toString());
         } catch (IOException e) {
             System.out.println("An error occurred while writing the receipt to the file.");
             e.printStackTrace();
         }
-    }
-
-    public String getOrderId() {
-        return orderId;
-    }
-
-    public void setOrderId(String orderId) {
-        this.orderId = orderId;
-    }
-
-    public Date getOrderDate() {
-        return orderDate;
-    }
-
-    public void setOrderDate(Date orderDate) {
-        this.orderDate = orderDate;
-    }
-
-    public List<Product> getProducts() {
-        return products;
-    }
-
-    public void setProducts(List<Product> products) {
-        this.products = products;
-    }
-
-    public double getTotalPrice() {
-        return totalPrice;
-    }
-
-    public void setTotalPrice(double totalPrice) {
-        this.totalPrice = totalPrice;
     }
 }
