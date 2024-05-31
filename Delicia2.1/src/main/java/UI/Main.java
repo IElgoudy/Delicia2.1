@@ -238,7 +238,6 @@ public class Main {
         System.out.println(GREEN + "#           Order placed successfully!  #" + RESET);
         System.out.println(GREEN + "#########################################" + RESET);
         currentOrder.printReceipt();
-        // Save order details to file (not implemented here)
     }
 
     private static void cancelOrder() {
