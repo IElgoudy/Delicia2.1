@@ -39,7 +39,7 @@ If you choose to start a new order, you will be asked to enter the order name. A
 In the order screen, you can add sandwiches, drinks, chips, or proceed to checkout.
 
 
-////Image2
+![OrderScreen](Images/OrderScreen.png)
 
 
 
@@ -54,7 +54,7 @@ In the order screen, you can add sandwiches, drinks, chips, or proceed to checko
 When adding a sandwich, you will be prompted to customize it by selecting bread type, size, whether it's toasted, and various toppings.
 
 
-//// Image3
+![Bread](Images/Bread.png)
 
 
 
@@ -68,7 +68,7 @@ When adding a sandwich, you will be prompted to customize it by selecting bread 
 
 When adding a drink, you will be prompted to select the type and size of the drink.
 
-//// Image 4
+![Drink](Images/Drink.png)
 
 
 - **Enter the number corresponding to your drink choice**.
@@ -78,7 +78,7 @@ When adding a drink, you will be prompted to select the type and size of the dri
 
 When adding chips, you will be prompted to select the type of chips.
 
-////Image5
+![Chip](Images/Chip.png)
 
 
 
@@ -93,4 +93,4 @@ A detailed receipt will be generated and displayed on the screen, and a copy wil
 
 ### Example Receipt
 
-////Image6
+![Receipt](Images/Receipt.png)
