@@ -1,0 +1,69 @@
+#########################################
+#                RECEIPT                #
+#########################################
+Order Name: Ish
+-----------------------------------------
+Order Date: 2024-05-31
+Time: 00:25:10
+-----------------------------------------
+Item: Sandwich
+  Bread: white
+  Size: 8
+  Toasted: Yes
+  Toppings:
+    - steak
+    - ham
+    - Extra Meat
+    - american
+    - Extra Cheese
+    - lettuce
+    - peppers
+    - onions
+    - tomatoes
+    - Mayo
+  Price: $9.55
+-----------------------------------------
+Item: Drink
+  Price: $2.0
+-----------------------------------------
+Item: Chip
+  Price: $1.5
+-----------------------------------------
+Total Price: $13.05
+-----------------------------------------
+Thank you for your order!
+#########################################
+#########################################
+#                RECEIPT                #
+#########################################
+Order Name: ish
+-----------------------------------------
+Order Date: 2024-05-31
+Time: 00:38:21
+-----------------------------------------
+Item: Sandwich
+  Bread: wrap
+  Size: 12
+  Toasted: Yes
+  Toppings:
+    - chicken
+    - Extra Meat
+    - swiss
+    - Extra Cheese
+    - guacamole
+    - mushrooms
+    - jalapenos
+    - tomatoes
+    - Thousand islands
+  Price: $10.55
+-----------------------------------------
+Item: Drink
+  Price: $3.0
+-----------------------------------------
+Item: Chip
+  Price: $1.5
+-----------------------------------------
+Total Price: $15.05
+-----------------------------------------
+Thank you for your order!
+#########################################
