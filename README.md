@@ -4,8 +4,6 @@
 
 DELICIA is a point of sale (POS) system designed for a custom sandwich shop. The application allows users to create new orders, add various items (sandwiches, drinks, chips) to the order, and generate receipts. Each receipt is saved in a unique file for record-keeping.
 
-![Diagram](images/Diagram.png)
-
 ## Features
 
 - **Home Screen**: Start a new order or exit the application.
